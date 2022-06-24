@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class QuadrinhosDomain {
+
     @JsonProperty("id")
     private Long codigo;
 
@@ -20,4 +21,5 @@ public class QuadrinhosDomain {
 
     @JsonProperty("pageCount")
     private String numeroDaPagina;
+
 }

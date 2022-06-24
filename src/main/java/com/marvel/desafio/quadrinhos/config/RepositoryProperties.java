@@ -17,4 +17,5 @@ public class RepositoryProperties {
 
     @Value("${client.endpoint.lista.quadrinhos.timeout}")
     private String listaquadrinhosEndpointTimeout;
+
 }

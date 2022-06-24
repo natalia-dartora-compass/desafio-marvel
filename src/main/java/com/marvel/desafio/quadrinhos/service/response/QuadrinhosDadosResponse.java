@@ -10,8 +10,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class QuadrinhosDadosResponse {
+
     private Long codigo;
     private String titulo;
     private String dataModificacao;
     private String numeroDaPagina;
+
 }
